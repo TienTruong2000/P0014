@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="P0014">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.19">
+    <root id="1">
+      <ServerVersion>14.0.2037</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="BookManagement">
+      <ObjectId>13</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="DWConfiguration">
+      <ObjectId>6</ObjectId>
+      <Collation>Latin1_General_100_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="4" parent="1" name="DWDiagnostics">
+      <ObjectId>5</ObjectId>
+      <Collation>Latin1_General_100_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="5" parent="1" name="DWQueue">
+      <ObjectId>7</ObjectId>
+      <Collation>Latin1_General_100_CI_AS_KS_WS</Collation>
+    </database>
+    <database id="6" parent="1" name="ItemDB">
+      <ObjectId>8</ObjectId>
+      <Collation>Latin1_General_CI_AI</Collation>
+    </database>
+    <database id="7" parent="1" name="KhanhKT">
+      <ObjectId>15</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="P0013">
+      <ObjectId>14</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="P0014">
+      <ObjectId>17</ObjectId>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>17.44219/FFD52F66-1C50-4115-9955-C0D5119D82EC@DESKTOP-P3MCH6V\NATTON</Fingerprint>
+    </database>
+    <database id="10" parent="1" name="Schedule">
+      <ObjectId>12</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="TestDB">
+      <ObjectId>16</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="TestHibernate">
+      <ObjectId>11</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="XML">
+      <ObjectId>19</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="login">
+      <ObjectId>10</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="spring-security">
+      <ObjectId>9</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <schema id="20" parent="9" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="21" parent="9" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="22" parent="9" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="23" parent="9" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="24" parent="9" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="25" parent="9" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="26" parent="9" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="27" parent="9" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="28" parent="9" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="29" parent="9" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="30" parent="9" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2021-01-26.16:39:27.820</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="31" parent="9" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="32" parent="9" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="33" parent="30" name="tbl_Choice">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2021-01-25.16:24:46.280</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:46.280</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="30" name="tbl_Question">
+      <ObjectId>1013578649</ObjectId>
+      <CreatedTimestamp>2021-01-25.16:24:43.117</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:46.280</ModifiedTimestamp>
+    </table>
+    <table id="35" parent="30" name="tbl_Role">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2021-01-25.16:24:18.860</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:22.253</ModifiedTimestamp>
+    </table>
+    <table id="36" parent="30" name="tbl_Subject">
+      <ObjectId>981578535</ObjectId>
+      <CreatedTimestamp>2021-01-25.16:24:39.347</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:43.133</ModifiedTimestamp>
+    </table>
+    <table id="37" parent="30" name="tbl_User">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2021-01-25.16:24:22.243</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.22:54:58.470</ModifiedTimestamp>
+    </table>
+    <column id="38" parent="33" name="ID">
+      <Position>1</Position>
+      <DataType>char(36 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="39" parent="33" name="content">
+      <Position>2</Position>
+      <DataType>nvarchar(1000 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="33" name="status">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="33" name="isCorrect">
+      <Position>4</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="33" name="questionID">
+      <Position>5</Position>
+      <DataType>char(36 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="43" parent="33" name="PK__tbl_Choi__3214EC27A03D9324">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="44" parent="33" name="PK__tbl_Choi__3214EC27A03D9324">
+      <ObjectId>1077578877</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:46.280</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:46.280</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Choi__3214EC27A03D9324</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="45" parent="33" name="FK__tbl_Choic__quest__412EB0B6">
+      <ObjectId>1093578934</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:46.280</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:46.280</ModifiedTimestamp>
+      <ColNames>questionID</ColNames>
+      <RefTableId>1013578649</RefTableId>
+      <RefTableName>tbl_Question</RefTableName>
+      <RefKeyName>PK__tbl_Ques__3214EC276ECD9FF5</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="46" parent="34" name="ID">
+      <Position>1</Position>
+      <DataType>char(36 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="34" name="content">
+      <Position>2</Position>
+      <DataType>nvarchar(1000 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="34" name="createDate">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="34" name="status">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="34" name="subjectID">
+      <Position>5</Position>
+      <DataType>char(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="51" parent="34" name="PK__tbl_Ques__3214EC276ECD9FF5">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="52" parent="34" name="PK__tbl_Ques__3214EC276ECD9FF5">
+      <ObjectId>1029578706</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:43.130</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:43.130</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Ques__3214EC276ECD9FF5</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="53" parent="34" name="FK__tbl_Quest__subje__3E52440B">
+      <ObjectId>1045578763</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:43.130</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:43.130</ModifiedTimestamp>
+      <ColNames>subjectID</ColNames>
+      <RefTableId>981578535</RefTableId>
+      <RefTableName>tbl_Subject</RefTableName>
+      <RefKeyName>PK__tbl_Subj__3214EC275FA7CA0A</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="54" parent="35" name="ID">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="55" parent="35" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="35" name="description">
+      <Position>3</Position>
+      <DataType>nvarchar(500 char)|0s</DataType>
+    </column>
+    <index id="57" parent="35" name="PK__tbl_Role__3214EC278CBE2DA7">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="35" name="PK__tbl_Role__3214EC278CBE2DA7">
+      <ObjectId>917578307</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:18.900</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:18.900</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Role__3214EC278CBE2DA7</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="59" parent="36" name="ID">
+      <Position>1</Position>
+      <DataType>char(6 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="36" name="name">
+      <Position>2</Position>
+      <DataType>nvarchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="36" name="description">
+      <Position>3</Position>
+      <DataType>nvarchar(500 char)|0s</DataType>
+    </column>
+    <index id="62" parent="36" name="PK__tbl_Subj__3214EC275FA7CA0A">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="63" parent="36" name="PK__tbl_Subj__3214EC275FA7CA0A">
+      <ObjectId>997578592</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:39.350</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:39.350</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <UnderlyingIndexName>PK__tbl_Subj__3214EC275FA7CA0A</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="64" parent="37" name="email">
+      <Position>1</Position>
+      <DataType>varchar(320 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="37" name="passsword">
+      <Position>2</Position>
+      <DataType>char(64 char)|0s</DataType>
+    </column>
+    <column id="66" parent="37" name="fullname">
+      <Position>3</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="37" name="status">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="37" name="roleID">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="69" parent="37" name="PK__tbl_User__493D0C0B44D2BCEF">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>email</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="70" parent="37" name="PK__tbl_User__493D0C0B44D2BCEF">
+      <ObjectId>949578421</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:22.250</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:22.250</ModifiedTimestamp>
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>PK__tbl_User__493D0C0B44D2BCEF</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="71" parent="37" name="FK__tbl_User__roleID__398D8EEE">
+      <ObjectId>965578478</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2021-01-25.16:24:22.253</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-25.16:24:22.253</ModifiedTimestamp>
+      <ColNames>roleID</ColNames>
+      <RefTableId>901578250</RefTableId>
+      <RefTableName>tbl_Role</RefTableName>
+      <RefKeyName>PK__tbl_Role__3214EC278CBE2DA7</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

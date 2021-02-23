@@ -1,0 +1,4 @@
+ERROR	2021-02-03 15:21:03,571	0	com.tientt.servlets.student.quiz.QuizTakeServlet	[http-nio-8080-exec-43]	Not enough question in database
+ERROR	2021-02-03 16:21:29,552	0	com.tientt.servlets.student.quiz.QuizTakeServlet	[http-nio-8080-exec-82]	Not enough question in database
+ERROR	2021-02-03 16:29:48,286	498734	com.tientt.servlets.student.quiz.QuizTakeServlet	[http-nio-8080-exec-79]	Not enough question in database
+ERROR	2021-02-03 20:16:30,364	0	com.tientt.filters.ExceptionFilter	[http-nio-8080-exec-12]	An instance of a null PK has been incorrectly provided for this find operation.
