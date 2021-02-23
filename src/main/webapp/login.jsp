@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : login
     Created on : Jan 25, 2021, 10:25:39 AM
     Author     : natton
@@ -10,10 +10,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login Page Test Deploy</title>
+        <title>Login Page</title>
     </head>
     <body>
-        
+
         <h1>Login</h1>
         <c:if test="${not empty param.logout}">
             Logout successfully
