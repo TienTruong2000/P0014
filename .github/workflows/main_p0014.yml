@@ -31,3 +31,25 @@ jobs:
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_f15492e448cd46caa56d39a51f5ab6d2 }}
         package: '${{ github.workspace }}/target/*.war' 
+    - name: Send email
+      if: always()
+      # You may pin to the exact commit or the version.
+      # uses: dawidd6/action-send-mail@16840503b7fd719fcd1c0e84464812406a30b935
+      uses: dawidd6/action-send-mail@v2.5.0
+      with:
+        # SMTP server address
+        server_address: smtp.gmail.com
+        # SMTP server port
+        server_port: 465
+        # Authenticate as this user to SMTP server
+        username: natton.practice@gmail.com
+        # Authenticate with this password to SMTP server
+        password: nattonpractice123
+        # Subject of mail message
+        subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+        # Body of mail message (might be a filename prefixed with file:// to read from)
+        body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+        # Recipients mail addresses (separated with comma)
+        to: natton.practice@gmail.com
+        # Full name of mail sender (might be with an email address specified in <>)
+        from: P0014 Project
