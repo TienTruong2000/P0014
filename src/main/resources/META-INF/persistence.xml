@@ -17,10 +17,7 @@
         <class>com.tientt.entities.TblQuizChoice</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
-            <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://p0014.database.windows.net:1433;database=P0014;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;"/>
-            <property name="javax.persistence.jdbc.user" value="webappofkhanhkt@p0014"/>
             <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
-            <property name="javax.persistence.jdbc.password" value="T13n!020"/>
             <!--<property name="eclipselink.logging.parameters" value="true"/>-->
             <!--<property name="eclipselink.logging.level.sql" value="FINEST"/>-->
             <property name="eclipselink.query-results-cache" value="false"/>
